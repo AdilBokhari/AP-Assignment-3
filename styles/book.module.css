@@ -1,0 +1,41 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.title {
+  font-size: 2.5rem;
+  color: #363636;
+  margin-bottom: 15px;
+}
+
+.description {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.authorLink {
+  font-size: 1.1rem;
+  color: #3e7577;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+
+.authorLink:hover {
+  text-decoration: underline;
+}
+
+.price {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #000000;
+}
+
+.rating {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #ffae2c;
+}

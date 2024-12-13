@@ -1,0 +1,40 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.title {
+    font-size: 2rem;
+    color: #000000;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.bookList {
+    list-style: none;
+    padding: 0;
+}
+
+.bookItem {
+    background-color: #f9f9f9;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.bookItem:hover {
+    background-color: #e0e0e0;
+}
+
+.bookLink {
+    text-decoration: none;
+    color: #3e7577;
+    font-size: 1.2rem;
+}
+
+.bookLink:hover {
+    text-decoration: underline;
+}

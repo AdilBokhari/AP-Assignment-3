@@ -1,0 +1,45 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.heading {
+  font-size: 2.5rem;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.select {
+  padding: 8px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.genreOption {
+  font-size: 1rem;
+}
+
+.bookListContainer {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.searchContainer {
+  margin: 20px 0;
+}
+
+.searchInput {
+  width: 100%;
+  padding: 8px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}

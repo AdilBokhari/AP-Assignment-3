@@ -1,0 +1,79 @@
+.auth {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+.auth h1 {
+    font-size: 2rem;
+    color: #000000;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.control {
+    margin-bottom: 20px;
+}
+
+.control label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #333333;
+}
+
+.control input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: Arial, sans-serif;
+}
+
+.actions {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.actions button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: #3e7577;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.actions .toggle {
+    background: none;
+    color: #3e7577;
+    font-size: 0.9rem;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.actions .toggle:hover {
+    color: #2c5759;
+}
+
+@media (max-width: 600px) {
+    .auth {
+        padding: 15px;
+    }
+
+    .auth h1 {
+        font-size: 1.8rem;
+    }
+
+    .actions button {
+        font-size: 0.9rem;
+    }
+}
